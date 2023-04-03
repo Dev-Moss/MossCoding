@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with: 
-        submodules: true
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
       - name: Login to Firebase
